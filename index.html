@@ -39,6 +39,24 @@
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <style>
+      .btn-pdf {
+        background-color: #e63946;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.3rem;
+        transition: all 0.3s ease;
+      }
+      .btn-pdf:hover {
+        background-color: #c1121f;
+        color: white;
+        transform: translateY(-2px);
+      }
+      .pdf-icon {
+        margin-right: 0.5rem;
+      }
+    </style>
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -115,14 +133,9 @@
           </div>
           <div class="subheading mb-5">+7 (965) 625-08-44 | UTC+3</div>
           <p class="lead mb-5">
-            <!--Hi, I'm a third-year student from Innopolis University and a-->
-            <!--developer mainly engaged in Backend. I have experience on the-->
-            <!--Frontend and doing my best to improve both areas in order to become-->
-            <!--Full-stack developer. Additionally, I'm enhancing skills in DevOps,-->
-            <!--since I have a high interest with that field as well.-->
             <b>DevOps | Backend</b>. Can do a little frontend, less UX/UI design
           </p>
-          <div class="social-icons">
+          <div class="social-icons mb-4">
             <a
               class="social-icon"
               href="https://github.com/muhammaduss"
@@ -145,6 +158,13 @@
               ><i class="fa-solid fa-envelope"></i
             ></a>
           </div>
+          <a
+            href="assets/pdf/muhammad_allayarov_devops_resume.pdf"
+            class="btn btn-pdf mb-4"
+            target="_blank"
+          >
+            <i class="fas fa-file-pdf pdf-icon"></i> Download PDF Resume
+          </a>
         </div>
       </section>
       <hr class="m-0" />
@@ -189,14 +209,6 @@
               <i class="devicon-nginx-plain" title="nginx"></i>
               <span class="skill-name">nginx</span>
             </li>
-            <!--<li class="list-inline-item skill-item">-->
-            <!--  <i class="devicon-ssh-original-wordmark" title="SSH"></i>-->
-            <!--  <span class="skill-name">ssh</span>-->
-            <!--</li>-->
-            <!--<li class="list-inline-item skill-item">-->
-            <!--  <i class="devicon-yaml-plain" title="Yaml"></i>-->
-            <!--  <span class="skill-name">yaml</span>-->
-            <!--</li>-->
             <li class="list-inline-item skill-item">
               <i class="devicon-terraform-plain" title="Terraform"></i>
               <span class="skill-name">Terraform</span>
@@ -253,14 +265,6 @@
               <i class="devicon-sqlalchemy-plain" title="SQLAlchemy"></i>
               <span class="skill-name">SQLAlchemy</span>
             </li>
-            <!-- <li class="list-inline-item skill-item"> -->
-            <!--   <i class="devicon-firebase-plain" title="Firebase"></i> -->
-            <!--   <span class="skill-name">Firebase</span> -->
-            <!-- </li> -->
-            <!--<li class="list-inline-item skill-item">-->
-            <!--  <i class="devicon-swagger-plain" title="Swagger"></i>-->
-            <!--  <span class="skill-name">Swagger</span>-->
-            <!--</li>-->
             <li class="list-inline-item skill-item">
               <i class="devicon-pytest-plain" title="Pytest"></i>
               <span class="skill-name">Pytest</span>
@@ -401,25 +405,6 @@
           </div>
 
           <h3 class="mb-5">Non-commercial</h3>
-          <!-- <div -->
-          <!--   class="d-flex flex-column flex-md-row justify-content-between mb-3" -->
-          <!-- > -->
-          <!--   <div class="flex-grow-1"> -->
-          <!--     <h4 class="mb-0">University Projects</h4> -->
-          <!--     <p>Graded applications (backend, frontend, etc.)</p> -->
-          <!--   </div> -->
-          <!-- </div> -->
-          <!-- <div -->
-          <!--   class="d-flex flex-column flex-md-row justify-content-between mb-3" -->
-          <!-- > -->
-          <!--   <div class="flex-grow-1"> -->
-          <!--     <h4 class="mb-0">Pet-Projects</h4> -->
-          <!--     <p> -->
-          <!--       I'm currently working on pet-project with a more or less -->
-          <!--       innovative idea, which may transform to a startup afterwards. -->
-          <!--     </p> -->
-          <!--   </div> -->
-          <!-- </div> -->
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-3"
           >
@@ -441,9 +426,6 @@
                 <a href="#projects">Projects</a> section
               </p>
             </div>
-            <!--<div class="flex-shrink-0">-->
-            <!--  <span class="text-primary">May 2024 - Present</span>-->
-            <!--</div>-->
           </div>
         </div>
       </section>
